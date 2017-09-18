@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/categories', 'CategoriesController@indexAction');
+Route::get('/categories/{category}', 'CategoriesController@detailAction');
