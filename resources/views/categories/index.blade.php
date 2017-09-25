@@ -11,7 +11,6 @@
     @foreach ($categories as $category) 
         <li><a href="categories/{{$category->id}}">{{ $category->name }}</a></li>
     @endforeach
-    </ul>
-    
+    </ul>    
 </body>
 </html>
